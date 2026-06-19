@@ -24,9 +24,13 @@ body {
   background-color: var(--tokyonight-storm-bg);
   color: var(--tokyonight-storm-fg);
 
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
 }
 
 p {
   color: var(--tokyonight-storm-white);
+}
+
+a {
+  color: var(--tokyonight-storm-blue);
 }
