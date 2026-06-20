@@ -13,8 +13,8 @@
 }
 
 @font-face {
-  font-family: "JetBrains Mono";
-  src: url("/fonts/jetbrainsmono/JetBrainsMono-Regular.woff2") format("woff2");
+  font-family: "Iosevka";
+  src: url("./public/fonts/iosevka/IosevkaNerdFontMono-Medium.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: optional; /* browser waits ~100ms for fonts to remove flicker */
@@ -24,7 +24,7 @@ body {
   background-color: var(--tokyonight-storm-bg);
   color: var(--tokyonight-storm-fg);
 
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Iosevka", monospace;
 }
 
 p {
